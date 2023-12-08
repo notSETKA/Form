@@ -1,0 +1,118 @@
+
+:root {
+    /* Primary */
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    /* Accent */
+    --Blue: hsl(248, 32%, 49%);
+
+    /* Neutral */
+
+    --Dark-Blue: hsl(249, 10%, 26%);
+    --Grayish-Blue: hsl(246, 25%, 77%);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--Red);
+
+}
+.text {
+    flex-basis: 45%;
+}
+.text h2 {
+    color: white;
+    font-size: 35px;
+}
+.text p {
+    font-size: 12px;
+    color: white;
+}
+.forma{
+    flex-basis: 45%;
+    height: 70%;
+}
+.forma .btn {
+    padding: 15px 10px;
+    color: white;
+    width: 100%;
+    background-color: var(--Blue);
+    border: none;
+    border-radius: 8px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    box-shadow: 0px 8px 0px 0px #0000001f;
+    cursor: pointer;
+}
+.forma .btn span {
+    font-weight: 600;
+}
+.forma form {
+
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 0px 0px #0000001f;
+}
+.forma form input {
+    width: 100%;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid var(--Grayish-Blue);
+    outline: none;
+}
+
+.forma form .inpt {
+    position: relative;
+    height: fit-content;
+    height: 55px;
+    margin-bottom: 20px;
+}
+
+
+.forma form .inpt > span {
+    font-size: 11px;
+    float: right;
+    margin-top: 1px;
+    margin-bottom: 4px;
+    color: var(--Red);
+    font-weight: 600;
+}
+.forma form input::placeholder{
+    
+    font-weight: 700;
+    color: var(--Dark-Blue);
+}
+
+.forma form input[type=submit]{
+    background-color: var(--Green);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 0px 5px 0px 0px hsl(154deg 91% 36%);
+    cursor: pointer;
+}
+.forma form p {
+    font-size: 11px;
+    color: var(--Grayish-Blue);
+    margin-bottom: 0;
+}
+.forma form p span {
+    color: var(--Red);
+    font-weight: 700;
+}
+
