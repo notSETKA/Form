@@ -53,7 +53,6 @@ body {
     border-radius: 8px;
     font-weight: 400;
     margin-bottom: 25px;
-    box-shadow: 0px 8px 0px 0px #0000001f;
     cursor: pointer;
 }
 .forma .btn span {
@@ -65,7 +64,7 @@ body {
     background-color: white;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0px 8px 0px 0px #0000001f;
+   
 }
 .forma form input {
     width: 100%;
@@ -116,3 +115,8 @@ body {
     font-weight: 700;
 }
 
+a{
+    cursor: pointer;
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+}
